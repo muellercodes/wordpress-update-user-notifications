@@ -1,6 +1,8 @@
 # wordpress-update-user-notifications
-Receive email notifications when one of your Wordpress users updates their profile, or resets/updates their password.
+Receive email notifications when one of your Wordpress users (non-admins) updates their profile info, or resets/updates their password.
 
+Change line 41 to your email address. 
+Switch around the variables in the message if you need to.
 Place this in your functions.php file.
 
 This excludes admins in the notifications.
