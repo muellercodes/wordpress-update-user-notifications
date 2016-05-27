@@ -38,7 +38,7 @@ function user_profile_update( $user_id ) {
 
 
         //UPDATE THIS TO NEW A EMAIL
-        $to = 'amueller@rcbrayshaw.com';
+        $to = 'YOUR@EMAIL.HERE';
 
         $subject = "". $_POST['submit'] . $_POST['Submit'] . ": ".$site_url."";
         $message = "" .$user_info->display_name . "'s profile has been updated!\n";
